@@ -1,7 +1,7 @@
 import { focusAreas, socialLinks } from "../data";
 import type { Route } from "./+types/home";
 
-const SITE_URL = "https://andrewtheguy.com";
+const SITE_URL = "https://www.andrewtheguy.com";
 const TITLE = "Andrew Chen — passionate coder, classical music lover, special food maker";
 const DESCRIPTION =
   "The personal website of Andrew Chen — software developer, classical music listener, and home baker.";

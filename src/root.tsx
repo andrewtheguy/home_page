@@ -10,7 +10,7 @@ import type { Route } from "./+types/root";
 import indexStylesheet from "./index.css?url";
 import appStylesheet from "./App.css?url";
 
-const SITE_URL = "https://andrewtheguy.com";
+const SITE_URL = "https://www.andrewtheguy.com";
 const SITE_NAME = "Andrew Chen";
 const DEFAULT_TITLE = "Andrew Chen — passionate coder, classical music lover, special food maker";
 const DEFAULT_DESCRIPTION =

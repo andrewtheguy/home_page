@@ -1,6 +1,6 @@
 import type { Route } from "./+types/about";
 
-const SITE_URL = "https://andrewtheguy.com";
+const SITE_URL = "https://www.andrewtheguy.com";
 const TITLE = "About this site — Andrew Chen";
 const DESCRIPTION =
   "How this site is built: React Router, Vite, TypeScript, and a hand-rolled vanilla-CSS design system.";
