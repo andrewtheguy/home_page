@@ -53,6 +53,24 @@ export default function Home() {
           </article>
         ))}
       </section>
+
+      <section className="projects-section">
+        <h2 className="section-title">Projects</h2>
+        <a
+          href="https://kuvi.app/"
+          className="card project-card"
+          rel="external noreferrer"
+          target="_blank"
+        >
+          <h2>
+            kuvi.app <span className="project-arrow">↗</span>
+          </h2>
+          <p>
+            A collection of open-source web apps and native utilities I build and actively
+            use as productivity tools. Browse them all at kuvi.app.
+          </p>
+        </a>
+      </section>
     </div>
   );
 }

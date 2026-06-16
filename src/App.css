@@ -205,6 +205,39 @@
   font-weight: 300;
 }
 
+/* Projects section */
+.projects-section {
+  padding: 1rem 0 2rem 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  color: #fff;
+  letter-spacing: -1px;
+  background: linear-gradient(to right, #fff, #b4b4b4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.project-card {
+  cursor: pointer;
+}
+
+.project-card .project-arrow {
+  color: #c79bff;
+  -webkit-text-fill-color: #c79bff;
+  font-weight: 700;
+  transition: transform 0.3s;
+  display: inline-block;
+}
+
+.project-card:hover .project-arrow {
+  transform: translate(3px, -3px);
+}
+
 /* About / Contact */
 .page {
   flex: 1;
