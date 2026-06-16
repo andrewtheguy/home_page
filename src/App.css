@@ -102,13 +102,6 @@
   filter: drop-shadow(0 0 30px rgba(168, 83, 186, 0.2));
 }
 
-.hero-title strong {
-  background: var(--primary-glow);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 .hero-tagline {
   color: #a1a1aa;
   font-size: 1.4rem;
