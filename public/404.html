@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>404 — Page not found · Andrew Chen</title>
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&display=swap"
+    />
+    <style>
+      :root {
+        color-scheme: dark;
+        --primary: #a853ba;
+        --accent: #2a8af6;
+      }
+      * { box-sizing: border-box; }
+      html, body { height: 100%; margin: 0; }
+      body {
+        font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+        color: rgba(255, 255, 255, 0.87);
+        background: radial-gradient(circle at 50% -20%, #2b1055, #000000);
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2rem;
+      }
+      .wrap { max-width: 32rem; }
+      .code {
+        font-size: clamp(4rem, 18vw, 8rem);
+        font-weight: 800;
+        line-height: 1;
+        margin: 0;
+        background: linear-gradient(120deg, var(--accent), var(--primary));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      h1 { font-size: 1.5rem; font-weight: 700; margin: 1rem 0 0.5rem; color: #fff; }
+      p { margin: 0 0 2rem; color: rgba(255, 255, 255, 0.7); }
+      a.home {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 600;
+        color: #fff;
+        padding: 0.7rem 1.6rem;
+        border-radius: 999px;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        transition: transform 0.2s, background 0.2s;
+      }
+      a.home:hover { transform: scale(1.03); background: rgba(255, 255, 255, 0.1); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <p class="code">404</p>
+      <h1>Page not found</h1>
+      <p>The page you are looking for doesn't exist or has moved.</p>
+      <a class="home" href="/">Back to home</a>
+    </div>
+  </body>
+</html>
